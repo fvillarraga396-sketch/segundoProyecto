@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.pagina {
+    max-width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+header p {
+    margin: 0;
+}
+.menu {
+    background-color: #1ABC9C;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+}
+.menu li {
+    color: white;
+    padding: 14px 0;
+}
+main {
+    flex: 1;
+    display: flex;
+}
+.lateral{
+    width: 30%;
+    background-color: #F0F0F0;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenido {
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+main img {
+    display: block;
+    max-width: 100%;
+}
+footer {
+    background-color: rgb(221, 221,221);
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}

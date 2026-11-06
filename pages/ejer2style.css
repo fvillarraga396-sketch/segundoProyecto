@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+
+.titulo-ejercicio {
+    text-align: center;
+    color: red;
+    font-weight: normal;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+}
+
+
+.menu-vertical {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.menu-vertical ul {
+    list-style: none; 
+}
+
+
+.menu-vertical li {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    background-color: #e2e2e2;      
+    margin-bottom: 6px;            
+    padding: 16px 20px;             
+}
+
+
+.menu-texto {
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.btn-entrar {
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.btn-entrar:hover {
+    background-color: #f0f0f0;
+}

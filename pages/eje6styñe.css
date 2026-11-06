@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #93D9E9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.contenedor {
+    display: flex;
+    gap: 20px;
+}
+.caja {
+    width: 230px;
+    min-height: 480px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba (0,0,0,0.3);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+.caja h2 {
+    background-color: red   ;
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.caja ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+}
+
+.caja li {
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.caja button {
+    margin: auto 20px 20px 20px;
+    padding: 10px;
+    background-color: #eee;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
